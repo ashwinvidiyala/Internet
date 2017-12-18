@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Internet</title>
+    <link rel="stylesheet" type="text/css" href="internet.css">
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="header">
+        <img src="internet_images/globe.png" alt="Globe">
+        <h1>The Inter<span>net</span></h1>
+      </div>
+      <h1 id='web'>The World Wide Web</h1>
+      <div id="content">
+        <div id="sidebar">
+          <div id="sidebar-top">
+            <p>So, what's an <span class='red'>internet?</span></p>
+            <p class='small'>An <span class='blue'>inter</span>connected <span class='blue'>
+            Net</span>work of computers all around the world!</p>
+
+          </div>
+          <div>
+            <button class='button blue-button'>WATCH A VIDEO</button>
+            <button class='button orange-button'>MORE RESOURCES</button>
+            <hr>
+          </div>
+          <div id='sidebar-bottom'>
+            <p> Reinvent your career in just 14 weeks </p>
+            <img src='internet_images/ninja.png' alt='Awesome Ninja'>
+            <button class='turquoise-button'>Learn More >>></button>
+          </div>
+        </div> <!-- End of sidebar div -->
+        <div id="main-content">
+          <div id="content-top">
+            <img src='internet_images/home.png' alt='Home'>
+            <p><a href='#'>DNS</a></p>
+            <div id='number'>
+              <img src='internet_images/phone.png' alt="Phone">
+              <div> <!-- Phone Number text divison -->
+                <p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+                <h2>855.967.3787</h2>
+                <p>International +1.617.963.0555</p>
+              </div> <!-- End of Phone Number text division -->
+            </div> <!-- End of number division -->
+            <hr>
+          </div> <!-- end of content top -->
+          <div id="content-middle">
+            <h3>Clients and Servers</h3>
+            <p>Computers connected to the <span class='text-blue'>Web</span>
+            are called <span class='bold'>clients</span> and <span class='bold'>
+            servers.</span></p>
+            <ul>
+              <li><span class='text-blue'>Clients</span> are the typical Web
+              user's Internet-connected devices (for example, your computer
+              connected to your Wi-Fi, or your phone connected to your mobile
+              network) and <span class='text-blue'>Web-accessing software</span>
+              available on those devices (usually a web browser like Firefox or
+              Chrome).</li>
+              <li><span class='text-blue'>Servers</span> are computers that
+              store <span class='text-blue'>webpages, sites</span> , or
+              <span class='text-blue'>apps</span>. When a client device wants to
+              access a webpage, a copy of the webpage is downloaded from the
+              server onto the client machine to be displayed in the user's web
+              browser.</li>
+            </ul>
+          <img src="internet_images/client_server.jpg" alt="Client-Server Visual
+          Representation">
+          <h3>So What Actually Happens?</h3>
+          <ol>
+            <li>The browser goes to the <span class='text-blue'>DNS Server
+            </span> and finds hte real address of the <span class='text-blue'>
+            server </span> that the website lives on.</li>
+            <li>The browser sends an <span class='text-blue'>HTTP request
+            </span>message to the server asking it to send a copy of the
+            website to the client.</li>
+            <li>If the server approves the client's request, the server sends
+            the client a <span class='text-blue'>"200 OK" message</span>,
+            which means "Permission granted! Here you go!", and then starts
+            sending the website's files to the browser as as series of small
+            chunks.</li>
+            <li>The browser assembles the small chunks into a complete website
+            and displays it to you!</li>
+          </ol>
+          </div> <!-- end of content middle -->
+          <div id="content-bottom">
+            <img src='internet_images/html.png' alt="HTML, CSS & JavaScript">
+            <div id='content-bottom-bottom'>
+              <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+              <p>While the server can process information in many different
+              languages, the files that they serve to the client are <span
+              class="italic">always </span> going to be some combintation of
+              HTML, CSS, and Javascript!</p>
+              <p>Learn more about the Big 3 <span class='text-blue'>here</span>!
+              </p>
+            </div> <!-- end of content bottom bottom -->
+          </div> <!-- End of content bottom -->
+        </div> <!-- End of main-content div-->
+      </div> <!-- End of content div -->
+    </div> <!-- End of container div -->
+  </body>
+</html>
